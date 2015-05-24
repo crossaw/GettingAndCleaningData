@@ -32,85 +32,85 @@ The second column, subject, is numeric with integer values 1 through 30.  It ide
 
 The remaining columns are all numeric with values between -1 and 1, representing the average of each raw measurement, catagorized by activity and subject.  The headings for the selected measurements are:
 
-*tbodyaccmeanx
-*tbodyaccmeany
-*tbodyaccmeanz
-*tbodyaccstdx
-*tbodyaccstdy
-*tbodyaccstdz
-*tgravityaccmeanx
-*tgravityaccmeany
-*tgravityaccmeanz
-*tgravityaccstdx
-*tgravityaccstdy
-*tgravityaccstdz
-*tbodyaccjerkmeanx
-*tbodyaccjerkmeany
-*tbodyaccjerkmeanz
-*tbodyaccjerkstdx
-*tbodyaccjerkstdy
-*tbodyaccjerkstdz
-*tbodygyromeanx
-*tbodygyromeany
-*tbodygyromeanz
-*tbodygyrostdx
-*tbodygyrostdy
-*tbodygyrostdz
-*tbodygyrojerkmeanx
-*tbodygyrojerkmeany
-*tbodygyrojerkmeanz
-*tbodygyrojerkstdx
-*tbodygyrojerkstdy
-*tbodygyrojerkstdz
-*tbodyaccmagmean
-*tbodyaccmagstd
-*tgravityaccmagmean
-*tgravityaccmagstd
-*tbodyaccjerkmagmean
-*tbodyaccjerkmagstd
-*tbodygyromagmean
-*tbodygyromagstd
-*tbodygyrojerkmagmean
-*tbodygyrojerkmagstd
-*fbodyaccmeanx
-*fbodyaccmeany
-*fbodyaccmeanz
-*fbodyaccstdx
-*fbodyaccstdy
-*fbodyaccstdz
-*fbodyaccmeanfreqx
-*fbodyaccmeanfreqy
-*fbodyaccmeanfreqz
-*fbodyaccjerkmeanx
-*fbodyaccjerkmeany
-*fbodyaccjerkmeanz
-*fbodyaccjerkstdx
-*fbodyaccjerkstdy
-*fbodyaccjerkstdz
-*fbodyaccjerkmeanfreqx
-*fbodyaccjerkmeanfreqy
-*fbodyaccjerkmeanfreqz
-*fbodygyromeanx
-*fbodygyromeany
-*fbodygyromeanz
-*fbodygyrostdx
-*fbodygyrostdy
-*fbodygyrostdz
-*fbodygyromeanfreqx
-*fbodygyromeanfreqy
-*fbodygyromeanfreqz
-*fbodyaccmagmean
-*fbodyaccmagstd
-*fbodyaccmagmeanfreq
-*fbodybodyaccjerkmagmean
-*fbodybodyaccjerkmagstd
-*fbodybodyaccjerkmagmeanfreq
-*fbodybodygyromagmean
-*fbodybodygyromagstd
-*fbodybodygyromagmeanfreq
-*fbodybodygyrojerkmagmean
-*fbodybodygyrojerkmagstd
-*fbodybodygyrojerkmagmeanfreq
+* tbodyaccmeanx
+* tbodyaccmeany
+* tbodyaccmeanz
+* tbodyaccstdx
+* tbodyaccstdy
+* tbodyaccstdz
+* tgravityaccmeanx
+* tgravityaccmeany
+* tgravityaccmeanz
+* tgravityaccstdx
+* tgravityaccstdy
+* tgravityaccstdz
+* tbodyaccjerkmeanx
+* tbodyaccjerkmeany
+* tbodyaccjerkmeanz
+* tbodyaccjerkstdx
+* tbodyaccjerkstdy
+* tbodyaccjerkstdz
+* tbodygyromeanx
+* tbodygyromeany
+* tbodygyromeanz
+* tbodygyrostdx
+* tbodygyrostdy
+* tbodygyrostdz
+* tbodygyrojerkmeanx
+* tbodygyrojerkmeany
+* tbodygyrojerkmeanz
+* tbodygyrojerkstdx
+* tbodygyrojerkstdy
+* tbodygyrojerkstdz
+* tbodyaccmagmean
+* tbodyaccmagstd
+* tgravityaccmagmean
+* tgravityaccmagstd
+* tbodyaccjerkmagmean
+* tbodyaccjerkmagstd
+* tbodygyromagmean
+* tbodygyromagstd
+* tbodygyrojerkmagmean
+* tbodygyrojerkmagstd
+* fbodyaccmeanx
+* fbodyaccmeany
+* fbodyaccmeanz
+* fbodyaccstdx
+* fbodyaccstdy
+* fbodyaccstdz
+* fbodyaccmeanfreqx
+* fbodyaccmeanfreqy
+* fbodyaccmeanfreqz
+* fbodyaccjerkmeanx
+* fbodyaccjerkmeany
+* fbodyaccjerkmeanz
+* fbodyaccjerkstdx
+* fbodyaccjerkstdy
+* fbodyaccjerkstdz
+* fbodyaccjerkmeanfreqx
+* fbodyaccjerkmeanfreqy
+* fbodyaccjerkmeanfreqz
+* fbodygyromeanx
+* fbodygyromeany
+* fbodygyromeanz
+* fbodygyrostdx
+* fbodygyrostdy
+* fbodygyrostdz
+* fbodygyromeanfreqx
+* fbodygyromeanfreqy
+* fbodygyromeanfreqz
+* fbodyaccmagmean
+* fbodyaccmagstd
+* fbodyaccmagmeanfreq
+* fbodybodyaccjerkmagmean
+* fbodybodyaccjerkmagstd
+* fbodybodyaccjerkmagmeanfreq
+* fbodybodygyromagmean
+* fbodybodygyromagstd
+* fbodybodygyromagmeanfreq
+* fbodybodygyrojerkmagmean
+* fbodybodygyrojerkmagstd
+* fbodybodygyrojerkmagmeanfreq
 
 These correspond to similar names in the raw data.  Individual descriptions are not available, but the following information is extracted from the file, features_info.txt, which accompanies the raw data.
 
@@ -125,29 +125,29 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tbodyAcc-XYZ
-*tgravityAcc-XYZ
-*tbodyAccJerk-XYZ
-*tbodyGyro-XYZ
-*tbodyGyroJerk-XYZ
-*tbodyAccMag
-*tgravityAccMag
-*tbodyAccJerkMag
-*tbodyGyroMag
-*tbodyGyroJerkMag
-*fbodyAcc-XYZ
-*fbodyAccJerk-XYZ
-*fbodyGyro-XYZ
-*fbodyAccMag
-*fbodyAccJerkMag
-*fbodyGyroMag
-*fbodyGyroJerkMag
+* tbodyAcc-XYZ
+* tgravityAcc-XYZ
+* tbodyAccJerk-XYZ
+* tbodyGyro-XYZ
+* tbodyGyroJerk-XYZ
+* tbodyAccMag
+* tgravityAccMag
+* tbodyAccJerkMag
+* tbodyGyroMag
+* tbodyGyroJerkMag
+* fbodyAcc-XYZ
+* fbodyAccJerk-XYZ
+* fbodyGyro-XYZ
+* fbodyAccMag
+* fbodyAccJerkMag
+* fbodyGyroMag
+* fbodyGyroJerkMag
 
 ...Variables ... estimated from these signals [include]: 
 
-*mean(): Mean value
-*std(): Standard deviation
-*meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* mean(): Mean value
+* std(): Standard deviation
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 ### More info
 The readme.txt file, which also accompanies the raw data includes a note that is significant for interpreting the measurements.  It states, "Features are normalized and bounded within [-1,1]."
